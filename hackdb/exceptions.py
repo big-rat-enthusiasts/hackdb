@@ -1,4 +1,5 @@
 class HackDBException(Exception):
+    """Base exception for HackDB errors"""
     pass
 
 class HackDBSiteKeyException(HackDBException):
