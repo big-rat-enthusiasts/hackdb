@@ -13,7 +13,8 @@ class HackDBProjectException(HackDBException):
 class HackDBCollectionNotFoundException(HackDBException):
     pass
 
-
+class HackDBUnauthenticatedException(HackDBException):
+    pass
 
 def _get_exception(code: str):
     match code:
