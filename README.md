@@ -1,13 +1,5 @@
 # HackDB
-pocketbase >>> hackdb
-
-a shitty client for a vibe coded backend (need i say more ?)
-
-
-```shell
-pip install -r requirements.txt
-```
-
+i made this python wrapper in 1 hour
 
 ## how 2
 ```python
