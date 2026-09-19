@@ -1,6 +1,11 @@
 # HackDB
 i made this python wrapper in 1 hour
 
+## installing
+```sh
+pip install git+https://github.com/big-rat-enthusiasts/hackdb@master
+```
+
 ## how 2
 ```python
 from hackdb import HackDB
