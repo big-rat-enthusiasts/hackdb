@@ -1,8 +1,13 @@
-import requests
 from urllib.parse import urlencode
 from typing import Optional
 
 from hackdb.exceptions import _get_exception, HackDBOriginException
+
+import sys
+if "pyodide" in sys.modules:
+    import ha_requests as requests
+else:
+    import requests
 
 
 class HackDB:
